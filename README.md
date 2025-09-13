@@ -7,8 +7,10 @@
 Install the package via npm:
 
 ```bash
-npm install @stephanullmann/rolling-dice
+npm install @stephanullmann/rolling-dice lit
 ```
+
+> **Note:** This package depends on `lit`. Ensure it is installed in your project. If you are using a bundler, `lit` will be automatically resolved as a dependency.
 
 ## Usage
 
