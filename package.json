@@ -1,0 +1,42 @@
+{
+  "name": "@stephanullmann/rolling-dice",
+  "version": "0.1.0",
+  "description": "A dice lit webcomponent",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build:package": "tsc && vite build --config vite.package.config.js",
+    "build:demo": "vite build --config vite.demo.config.js",
+    "build": "npm run build:demo",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build:package"
+  },
+  "author": "Stephan Ullmann",
+  "license": "MIT",
+  "dependencies": {
+    "lit": "^3.3.1"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.2",
+    "vite": "^7.1.3"
+  },
+  "keywords": [
+    "lit",
+    "webcomponent",
+    "dice",
+    "rolling-dice",
+    "custom-element"
+  ]
+}
