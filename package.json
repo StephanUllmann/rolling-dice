@@ -1,6 +1,6 @@
 {
   "name": "@stephanullmann/rolling-dice",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A dice lit webcomponent",
   "type": "module",
   "main": "dist/index.js",
