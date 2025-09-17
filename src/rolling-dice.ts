@@ -202,7 +202,7 @@ export class RollingDice extends LitElement {
         @pointermove=${this.handleMouseMove}
         @mouseleave=${this.handleMouseLeave}
         class=${`dice ${this.isRolling ? 'moving' : ''}`}
-        data-size=${this.size === 'small' ? '8rem' : this.size === 'medium' ? '12rem' : '15rem'}
+        data-size=${this.size === 'small' ? '6rem' : this.size === 'medium' ? '9rem' : '12rem'}
         data-color=${this.color}
         data-rotate-x="65deg"
         data-rotate-y="0deg"
